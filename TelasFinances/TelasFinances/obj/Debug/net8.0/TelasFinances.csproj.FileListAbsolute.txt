@@ -29,3 +29,4 @@ C:\Users\vinicius.andrade\source\repos\ViniciusAndradd\Finances\TelasFinances\Te
 C:\Users\vinicius.andrade\source\repos\ViniciusAndradd\Finances\TelasFinances\TelasFinances\obj\Debug\net8.0\TelasFinances.genruntimeconfig.cache
 C:\Users\vinicius.andrade\source\repos\ViniciusAndradd\Finances\TelasFinances\TelasFinances\obj\Debug\net8.0\ref\TelasFinances.dll
 C:\Users\vinicius.andrade\source\repos\ViniciusAndradd\Finances\TelasFinances\TelasFinances\obj\Debug\net8.0\scopedcss\Components\Pages\Clientes.razor.rz.scp.css
+C:\Users\vinicius.andrade\source\repos\ViniciusAndradd\Finances\TelasFinances\TelasFinances\obj\Debug\net8.0\scopedcss\Components\Pages\Cliente.razor.rz.scp.css

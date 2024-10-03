@@ -2,7 +2,9 @@
     margin:25px;
 }
 
-.botaoAdd[b-0oamxfwzjt]{
+.botaoCadastrar[b-0oamxfwzjt] {
+    background-color: #1B195A;
+    color: white;
     width:100%;
 }
 
@@ -17,4 +19,8 @@ table[b-0oamxfwzjt] {
 
 tr[b-0oamxfwzjt]{
     border-bottom:1px solid lightgray;
+}
+
+.botaoVisualizar[b-0oamxfwzjt] {
+    background-color: #1B195A;
 }

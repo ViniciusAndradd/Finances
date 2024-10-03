@@ -101,19 +101,6 @@ main[b-6tqizgi880] {
     background-color: #1B195A;
     color: white;
 }
-
-.componentesFormulario[b-6tqizgi880]{
-    margin-top:15px;
-}
-
-.phSelect[b-6tqizgi880]{
-    color:#f2f2f2;
-}
-
-.botaoAdd[b-6tqizgi880] {
-    width: 100%;
-    background-color: #1B195A;
-}
 /* _content/TelasFinances/Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-75zxl03glt] {
     appearance: none;
@@ -220,12 +207,29 @@ main[b-6tqizgi880] {
         overflow-y: auto;
     }
 }
+/* _content/TelasFinances/Components/Pages/Cliente.razor.rz.scp.css */
+
+
+.componentesFormulario[b-jil5n19mu3] {
+    margin-top: 15px;
+}
+
+.phSelect[b-jil5n19mu3] {
+    color: #f2f2f2;
+}
+
+.botaoAdd[b-jil5n19mu3] {
+    width: 100%;
+    background-color: #1B195A;
+}
 /* _content/TelasFinances/Components/Pages/Clientes.razor.rz.scp.css */
 .conteudoPrincipal[b-0oamxfwzjt]{
     margin:25px;
 }
 
-.botaoAdd[b-0oamxfwzjt]{
+.botaoCadastrar[b-0oamxfwzjt] {
+    background-color: #1B195A;
+    color: white;
     width:100%;
 }
 
@@ -240,4 +244,8 @@ table[b-0oamxfwzjt] {
 
 tr[b-0oamxfwzjt]{
     border-bottom:1px solid lightgray;
+}
+
+.botaoVisualizar[b-0oamxfwzjt] {
+    background-color: #1B195A;
 }
