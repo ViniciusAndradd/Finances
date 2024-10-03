@@ -1,0 +1,20 @@
+﻿.conteudoPrincipal{
+    margin:25px;
+}
+
+.botaoAdd{
+    width:100%;
+}
+
+.tabelaClientes{
+    margin-top:25px;
+}
+
+table {
+    width:100%;
+    text-align:center;
+}
+
+tr{
+    border-bottom:1px solid lightgray;
+}
