@@ -1,0 +1,15 @@
+.formulario[b-c5m2n89h4x]{
+    margin-top:15px;
+}
+
+.btnAdicionar[b-c5m2n89h4x] {
+    width: 100%;
+    margin-top: 10px;
+    background-color:black;
+    color:white;
+}
+
+    .btnAdicionar:hover[b-c5m2n89h4x] {
+        transition: 0.5s ease;
+        background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    }

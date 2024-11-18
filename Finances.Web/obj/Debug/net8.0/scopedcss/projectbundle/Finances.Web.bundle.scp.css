@@ -1,0 +1,93 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+*[b-ch4j1qcfmn] {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menuLateral[b-ch4j1qcfmn] {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    color: #fff;
+    text-align: left;
+}
+
+.logo[b-ch4j1qcfmn] {
+    display: flex;
+    
+    background: black;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .logo h3[b-ch4j1qcfmn] {
+        font-family: Optima;
+        font-size: 5em;
+    }
+
+
+ul[b-ch4j1qcfmn] {
+    list-style: none;
+    margin-left: 15px;
+}
+
+NavLink[b-ch4j1qcfmn] {
+    text-decoration: none;
+}
+
+.opcaoMenu[b-ch4j1qcfmn] {
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+    .opcaoMenu:hover[b-ch4j1qcfmn] {
+        text-decoration:none;
+        color: #171B5B;
+        background-color: rgba(254, 254, 254,0.7);
+        transition: 0.2s ease;
+    }
+
+.conteudoPrincipal[b-ch4j1qcfmn] {
+    margin-left: 250px;
+}
+
+.menuSuperior[b-ch4j1qcfmn] {
+    height: 75px;
+    display: flex;
+    background-image: linear-gradient(90deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* /Pages/ComponenteFormularioLancamento.razor.rz.scp.css */
+.formulario[b-c5m2n89h4x]{
+    margin-top:15px;
+}
+
+.btnAdicionar[b-c5m2n89h4x] {
+    width: 100%;
+    margin-top: 10px;
+    background-color:black;
+    color:white;
+}
+
+    .btnAdicionar:hover[b-c5m2n89h4x] {
+        transition: 0.5s ease;
+        background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    }
+/* /Pages/Home.razor.rz.scp.css */
+.formulario[b-4f7398rxl7]{
+    margin-top:15px;
+}
