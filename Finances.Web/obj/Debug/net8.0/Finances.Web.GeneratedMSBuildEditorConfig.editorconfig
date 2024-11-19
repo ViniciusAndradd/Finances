@@ -26,12 +26,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vinicius.andrade/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/Despesas.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzcGVzYXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/vinicius.andrade/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/Receitas.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZWl0YXMucmF6b3I=
+[C:/Users/vinicius.andrade/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/DadosPessoais.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFkb3NQZXNzb2Fpcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vinicius.andrade/Source/Repos/ViniciusAndradd/Finances/Finances.Web/_Imports.razor]
@@ -46,6 +42,18 @@ build_metadata.AdditionalFiles.CssScope = b-ch4j1qcfmn
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50ZUZvcm11bGFyaW9MYW5jYW1lbnRvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-c5m2n89h4x
 
+[C:/Users/vinicius.andrade/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/ComponenteListaLancamentos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50ZUxpc3RhTGFuY2FtZW50b3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-k29kh2ryw2
+
+[C:/Users/vinicius.andrade/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/Despesas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzcGVzYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ur0xfdt4u1
+
 [C:/Users/vinicius.andrade/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-4f7398rxl7
+
+[C:/Users/vinicius.andrade/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/Receitas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZWl0YXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-knw4ozxh92

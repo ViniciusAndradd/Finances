@@ -1,3 +1,45 @@
-﻿.formulario{
+﻿.conteudo{
     margin-top:15px;
+    text-align:center;
 }
+
+.tabela{
+    margin-top:15px;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.btnOpcaoReceita {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+
+    .btnOpcaoReceita:hover {
+    background-color: #0B2363;
+    }
+
+    .btnOpcaoReceita:focus {
+    outline: none;
+    background-color: #3A0648;
+    }
+
+.btnOpcaoDespesa {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+
+    .btnOpcaoDespesa:hover {
+    background-color: #3A0648;
+    }
+
+    .btnOpcaoDespesa:focus {
+        outline: none;
+        background-color: #0B2363;
+    }
+
+

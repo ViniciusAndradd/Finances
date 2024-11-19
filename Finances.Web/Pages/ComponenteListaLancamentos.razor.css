@@ -1,0 +1,17 @@
+﻿tr{
+    border-bottom:1px solid lightgrey;
+}
+
+thead {
+    font-size: 1.5em;
+}
+
+td{
+    width:50px;
+}
+
+table{
+    text-align:center;
+    margin-top:15px;
+}
+

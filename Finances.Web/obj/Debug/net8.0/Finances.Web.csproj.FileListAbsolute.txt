@@ -1031,3 +1031,6 @@ C:\Users\vinicius.andrade\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj
 C:\Users\vinicius.andrade\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\projectbundle\Finances.Web.bundle.scp.css
 C:\Users\vinicius.andrade\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 C:\Users\vinicius.andrade\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\Home.razor.rz.scp.css
+C:\Users\vinicius.andrade\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\ComponenteListaLancamentos.razor.rz.scp.css
+C:\Users\vinicius.andrade\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\Receitas.razor.rz.scp.css
+C:\Users\vinicius.andrade\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\Despesas.razor.rz.scp.css

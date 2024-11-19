@@ -1,3 +1,45 @@
-.formulario[b-4f7398rxl7]{
+.conteudo[b-4f7398rxl7]{
     margin-top:15px;
+    text-align:center;
 }
+
+.tabela[b-4f7398rxl7]{
+    margin-top:15px;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.btnOpcaoReceita[b-4f7398rxl7] {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+
+    .btnOpcaoReceita:hover[b-4f7398rxl7] {
+    background-color: #0B2363;
+    }
+
+    .btnOpcaoReceita:focus[b-4f7398rxl7] {
+    outline: none;
+    background-color: #3A0648;
+    }
+
+.btnOpcaoDespesa[b-4f7398rxl7] {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+
+    .btnOpcaoDespesa:hover[b-4f7398rxl7] {
+    background-color: #3A0648;
+    }
+
+    .btnOpcaoDespesa:focus[b-4f7398rxl7] {
+        outline: none;
+        background-color: #0B2363;
+    }
+
+

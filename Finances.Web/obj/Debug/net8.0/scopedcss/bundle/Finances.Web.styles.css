@@ -2,7 +2,7 @@
 *[b-ch4j1qcfmn] {
     margin: 0;
     padding: 0;
-    
+    text-decoration:none;
 }
 
 .menuLateral[b-ch4j1qcfmn] {
@@ -14,31 +14,33 @@
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
     color: #fff;
     text-align: left;
+    
+}
+
+.menu[b-ch4j1qcfmn]{
+    padding:15px;
 }
 
 .logo[b-ch4j1qcfmn] {
     display: flex;
-    
-    background: black;
     height: 75px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
 }
 
     .logo h3[b-ch4j1qcfmn] {
         font-family: Optima;
-        font-size: 5em;
+        font-size: 4em;
     }
 
 
 ul[b-ch4j1qcfmn] {
     list-style: none;
     margin-left: 15px;
-}
-
-NavLink[b-ch4j1qcfmn] {
-    text-decoration: none;
+    margin-right: 15px;
 }
 
 .opcaoMenu[b-ch4j1qcfmn] {
@@ -46,7 +48,6 @@ NavLink[b-ch4j1qcfmn] {
     margin-bottom: 15px;
     padding: 10px 10px 10px 10px;
     color: white;
-    text-decoration: none;
     font-size: 1.2em;
 }
 
@@ -54,7 +55,7 @@ NavLink[b-ch4j1qcfmn] {
         text-decoration:none;
         color: #171B5B;
         background-color: rgba(254, 254, 254,0.7);
-        transition: 0.2s ease;
+        transition: 0.3s ease;
     }
 
 .conteudoPrincipal[b-ch4j1qcfmn] {
@@ -84,10 +85,83 @@ NavLink[b-ch4j1qcfmn] {
 }
 
     .btnAdicionar:hover[b-c5m2n89h4x] {
-        transition: 0.5s ease;
-        background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+        background-color: #0B2363; 
+        color: #fff; 
     }
+
+    .btnAdicionar:focus[b-c5m2n89h4x] {
+        outline: none; 
+        background-color: #3A0648; 
+    }
+/* /Pages/ComponenteListaLancamentos.razor.rz.scp.css */
+tr[b-k29kh2ryw2]{
+    border-bottom:1px solid lightgrey;
+}
+
+thead[b-k29kh2ryw2] {
+    font-size: 1.5em;
+}
+
+td[b-k29kh2ryw2]{
+    width:50px;
+}
+
+table[b-k29kh2ryw2]{
+    text-align:center;
+    margin-top:15px;
+}
+
+/* /Pages/Despesas.razor.rz.scp.css */
+.conteudo[b-ur0xfdt4u1] {
+    margin-top: 15px;
+}
 /* /Pages/Home.razor.rz.scp.css */
-.formulario[b-4f7398rxl7]{
+.conteudo[b-4f7398rxl7]{
+    margin-top:15px;
+    text-align:center;
+}
+
+.tabela[b-4f7398rxl7]{
+    margin-top:15px;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.btnOpcaoReceita[b-4f7398rxl7] {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+
+    .btnOpcaoReceita:hover[b-4f7398rxl7] {
+    background-color: #0B2363;
+    }
+
+    .btnOpcaoReceita:focus[b-4f7398rxl7] {
+    outline: none;
+    background-color: #3A0648;
+    }
+
+.btnOpcaoDespesa[b-4f7398rxl7] {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+
+    .btnOpcaoDespesa:hover[b-4f7398rxl7] {
+    background-color: #3A0648;
+    }
+
+    .btnOpcaoDespesa:focus[b-4f7398rxl7] {
+        outline: none;
+        background-color: #0B2363;
+    }
+
+
+/* /Pages/Receitas.razor.rz.scp.css */
+.conteudo[b-knw4ozxh92]{
     margin-top:15px;
 }

@@ -1,7 +1,7 @@
 ﻿* {
     margin: 0;
     padding: 0;
-    
+    text-decoration:none;
 }
 
 .menuLateral {
@@ -13,31 +13,33 @@
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
     color: #fff;
     text-align: left;
+    
+}
+
+.menu{
+    padding:15px;
 }
 
 .logo {
     display: flex;
-    
-    background: black;
     height: 75px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
 }
 
     .logo h3 {
         font-family: Optima;
-        font-size: 5em;
+        font-size: 4em;
     }
 
 
 ul {
     list-style: none;
     margin-left: 15px;
-}
-
-NavLink {
-    text-decoration: none;
+    margin-right: 15px;
 }
 
 .opcaoMenu {
@@ -45,7 +47,6 @@ NavLink {
     margin-bottom: 15px;
     padding: 10px 10px 10px 10px;
     color: white;
-    text-decoration: none;
     font-size: 1.2em;
 }
 
@@ -53,7 +54,7 @@ NavLink {
         text-decoration:none;
         color: #171B5B;
         background-color: rgba(254, 254, 254,0.7);
-        transition: 0.2s ease;
+        transition: 0.3s ease;
     }
 
 .conteudoPrincipal {
