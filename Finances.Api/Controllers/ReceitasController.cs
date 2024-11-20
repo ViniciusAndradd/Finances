@@ -17,12 +17,34 @@ namespace Finances.Api.Controllers
             _receitaRepository = receitaRepository;
         }
 
-        [HttpGet("{IdUsuario:int}")]
-        public async Task<ActionResult<IEnumerable<ReceitaDTO>>> GetReceitas(int IdUsuario)
+        [HttpGet("{UsuarioId:int}")]
+        public async Task<ActionResult<IEnumerable<ReceitasDTO>>> GetReceitas(int UsuarioId)
         {
             try
             {
-                var receitas = await _receitaRepository.GetReceitas(IdUsuario);
+                var receitas = await _receitaRepository.GetReceitas(UsuarioId);
+                if (receitas is null)
+                {
+                    return NotFound("Sem Receitas cadastradas");
+                }
+                else
+                {
+                    var receitasDto = receitas.ConverterReceitasParaDto();
+                    return Ok(receitasDto);
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Erro ao acessar a base de dados {ex.Message}");
+            }
+        }
+
+        [HttpGet("{UsuarioId:int}/{CategoriaId:int}")]
+        public async Task<ActionResult<IEnumerable<ReceitasDTO>>> GetReceitasByCategory(int UsuarioId, int CategoriaId)
+        {
+            try
+            {
+                var receitas = await _receitaRepository.GetReceitasByCategory(UsuarioId,CategoriaId);
                 if (receitas is null)
                 {
                     return NotFound("Sem Receitas cadastradas");

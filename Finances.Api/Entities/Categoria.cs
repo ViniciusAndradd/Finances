@@ -7,7 +7,7 @@ namespace Finances.Api.Entities
     {
         public int Id { get; set; }
         [MaxLength(100)]
-        public int Nome { get; set; }
+        public string Nome { get; set; }
         public int Tipo { get; set; }
 
         public Collection<Receita> Receitas { get; set; } = new Collection<Receita>();

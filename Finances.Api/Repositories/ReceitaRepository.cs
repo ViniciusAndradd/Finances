@@ -13,19 +13,19 @@ namespace Finances.Api.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Receita>> GetReceitas(int IdUsuario)
+        public async Task<IEnumerable<Receita>> GetReceitas(int UsuarioId)
         {
             var receitas = await _context.Receitas
-                .Where(r => r.IdUsuario ==  IdUsuario)
+                .Where(r => r.UsuarioId == UsuarioId)
                 .ToListAsync();
 
             return receitas;
         }
 
-        public async Task<IEnumerable<Receita>> GetReceitasByCategory(int IdCategoria,int IdUsuario)
+        public async Task<IEnumerable<Receita>> GetReceitasByCategory(int UsuarioId, int CategoriaId)
         {
             var receitas = await _context.Receitas
-                .Include(r => r.IdCategoria == IdCategoria && r.IdUsuario == IdUsuario)
+                .Where(r => r.UsuarioId == UsuarioId && r.CategoriaId == CategoriaId)
                 .ToListAsync();
 
             return receitas;
