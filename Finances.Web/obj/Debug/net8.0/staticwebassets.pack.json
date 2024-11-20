@@ -1,35 +1,35 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\vinicius.andrade\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\vinicius.andrade\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\obj\\Debug\\net8.0\\compressed\\9phvi74s3a.gz",
+      "Id": "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\obj\\Debug\\net8.0\\compressed\\ykagudktve.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\vinicius.andrade\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Finances.Web.styles.css",
+      "Id": "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Finances.Web.styles.css",
       "PackagePath": "staticwebassets\\Finances.Web.styles.css"
     },
     {
-      "Id": "C:\\Users\\vinicius.andrade\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\vinicius.andrade\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\vinicius.andrade\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\vinicius.andrade\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\vinicius.andrade\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\index.html",
+      "Id": "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Web\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

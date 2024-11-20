@@ -2,7 +2,27 @@
 
 <PageTitle>Dados Pessoais</PageTitle>
 
-<h3>DadosPessoais</h3>
+<div class="container conteudo">
+    <h3>Editar Dados Pessoais</h3>
+    <div class="row">
+        <div class="col-lg-12 campoFormulario">
+            <label class="col-lg-12" for="nome">Nome</label><br />
+            <input class="form-control caixaTexto" type="text" name="nome"/>
+        </div>
+        <div class="col-lg-12 campoFormulario">
+            <label for="profissao">Profissão</label><br />
+            <input class="form-control caixaTexto" type="text" name="profissao"/>
+        </div>
+        <div class="col-lg-12 campoFormulario">
+            <label for="salario">Salário</label><br />
+            <input class="form-control caixaTexto" type="text" name="salario"/>
+        </div>
+        <div class="col-lg-12 campoFormulario">
+            <button class="btn btnAlterarDados">Alterar dados</button>
+        </div>
+    </div>
+</div>
+
 
 @code {
 

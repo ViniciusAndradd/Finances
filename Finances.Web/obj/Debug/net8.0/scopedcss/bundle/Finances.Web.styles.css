@@ -111,6 +111,48 @@ table[b-k29kh2ryw2]{
     margin-top:15px;
 }
 
+/* /Pages/DadosPessoais.razor.rz.scp.css */
+.conteudo[b-njm57ksb2w]{
+    text-align:center;
+    margin-top:15px;
+}
+
+.campoFormulario[b-njm57ksb2w]{
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+label[b-njm57ksb2w] {
+    display: block;
+    margin-top: 15px;
+}
+
+.caixaTexto[b-njm57ksb2w]{
+    width:50%;
+    text-align:center;
+}
+
+.btnAlterarDados[b-njm57ksb2w] {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin-top: 15px;
+}
+
+    .btnAlterarDados:hover[b-njm57ksb2w] {
+        background-color: #0B2363;
+        color: #fff;
+    }
+
+    .btnAlterarDados:focus[b-njm57ksb2w] {
+        outline: none;
+        background-color: #3A0648;
+    }
+
 /* /Pages/Despesas.razor.rz.scp.css */
 .conteudo[b-ur0xfdt4u1] {
     margin-top: 15px;

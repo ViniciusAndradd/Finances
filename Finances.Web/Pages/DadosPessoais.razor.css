@@ -1,0 +1,41 @@
+﻿.conteudo{
+    text-align:center;
+    margin-top:15px;
+}
+
+.campoFormulario{
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+.caixaTexto{
+    width:50%;
+    text-align:center;
+}
+
+.btnAlterarDados {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin-top: 15px;
+}
+
+    .btnAlterarDados:hover {
+        background-color: #0B2363;
+        color: #fff;
+    }
+
+    .btnAlterarDados:focus {
+        outline: none;
+        background-color: #3A0648;
+    }
+
