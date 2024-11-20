@@ -4,6 +4,7 @@ using Finances.Api.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Finances.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241119234954_UpdateReceitas")]
+    partial class UpdateReceitas
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,10 +33,9 @@ namespace Finances.Api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Nome")
-                        .IsRequired()
+                    b.Property<int>("Nome")
                         .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("int");
 
                     b.Property<int>("Tipo")
                         .HasColumnType("int");
@@ -62,6 +64,12 @@ namespace Finances.Api.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<int>("IdCategoria")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdUsuario")
+                        .HasColumnType("int");
+
                     b.Property<int>("UsuarioId")
                         .HasColumnType("int");
 
@@ -85,9 +93,6 @@ namespace Finances.Api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CategoriaId")
-                        .HasColumnType("int");
-
                     b.Property<DateOnly>("Data")
                         .HasColumnType("date");
 
@@ -96,7 +101,10 @@ namespace Finances.Api.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int>("UsuarioId")
+                    b.Property<int>("IdCategoriaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdUsuarioId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Valor")
@@ -104,9 +112,9 @@ namespace Finances.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoriaId");
+                    b.HasIndex("IdCategoriaId");
 
-                    b.HasIndex("UsuarioId");
+                    b.HasIndex("IdUsuarioId");
 
                     b.ToTable("Receitas");
                 });
@@ -158,21 +166,21 @@ namespace Finances.Api.Migrations
 
             modelBuilder.Entity("Finances.Api.Entities.Receita", b =>
                 {
-                    b.HasOne("Finances.Api.Entities.Categoria", "Categoria")
+                    b.HasOne("Finances.Api.Entities.Categoria", "IdCategoria")
                         .WithMany("Receitas")
-                        .HasForeignKey("CategoriaId")
+                        .HasForeignKey("IdCategoriaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Finances.Api.Entities.Usuario", "Usuario")
+                    b.HasOne("Finances.Api.Entities.Usuario", "IdUsuario")
                         .WithMany("Receitas")
-                        .HasForeignKey("UsuarioId")
+                        .HasForeignKey("IdUsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Categoria");
+                    b.Navigation("IdCategoria");
 
-                    b.Navigation("Usuario");
+                    b.Navigation("IdUsuario");
                 });
 
             modelBuilder.Entity("Finances.Api.Entities.Categoria", b =>
