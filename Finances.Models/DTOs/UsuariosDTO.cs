@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Finances.Models.DTOs
 {
-    public class UsuarioDTO
+    public class UsuariosDTO
     {
         public int Id { get; set; }
         public string Nome { get; set; }

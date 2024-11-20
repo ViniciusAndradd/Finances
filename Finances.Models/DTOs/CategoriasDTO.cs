@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Finances.Models.DTOs
 {
-    public class CategoriaDTO
+    public class CategoriasDTO
     {
         public int Id { get; set; }
         public int Nome { get; set; }
