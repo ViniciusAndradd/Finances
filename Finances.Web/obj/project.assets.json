@@ -449,6 +449,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Finances.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Finances.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Finances.Models.dll": {}
+        }
       }
     },
     "net8.0/browser-wasm": {
@@ -898,6 +908,16 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Finances.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Finances.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Finances.Models.dll": {}
         }
       }
     }
@@ -1862,10 +1882,16 @@
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Finances.Models/1.0.0": {
+      "type": "project",
+      "path": "../Finances.Models/Finances.Models.csproj",
+      "msbuildProject": "../Finances.Models/Finances.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Finances.Models >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.10",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10",
@@ -1904,7 +1930,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Models\\Finances.Models.csproj": {
+              "projectPath": "C:\\Users\\vinic\\Source\\Repos\\ViniciusAndradd\\Finances\\Finances.Models\\Finances.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
