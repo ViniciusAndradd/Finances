@@ -1,0 +1,209 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+*[b-ch4j1qcfmn] {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+.menuLateral[b-ch4j1qcfmn] {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    color: #fff;
+    text-align: left;
+    
+}
+
+.menu[b-ch4j1qcfmn]{
+    padding:15px;
+}
+
+.logo[b-ch4j1qcfmn] {
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+    .logo h3[b-ch4j1qcfmn] {
+        font-family: Optima;
+        font-size: 4em;
+    }
+
+
+ul[b-ch4j1qcfmn] {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.opcaoMenu[b-ch4j1qcfmn] {
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 1.2em;
+}
+
+    .opcaoMenu:hover[b-ch4j1qcfmn] {
+        text-decoration:none;
+        color: #171B5B;
+        background-color: rgba(254, 254, 254,0.7);
+        transition: 0.3s ease;
+    }
+
+.conteudoPrincipal[b-ch4j1qcfmn] {
+    margin-left: 250px;
+}
+
+.menuSuperior[b-ch4j1qcfmn] {
+    height: 75px;
+    display: flex;
+    background-image: linear-gradient(90deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* /Pages/ComponenteFormularioLancamento.razor.rz.scp.css */
+.formulario[b-c5m2n89h4x]{
+    margin-top:15px;
+}
+
+.btnAdicionar[b-c5m2n89h4x] {
+    width: 100%;
+    margin-top: 10px;
+    background-color:black;
+    color:white;
+}
+
+    .btnAdicionar:hover[b-c5m2n89h4x] {
+        background-color: #0B2363; 
+        color: #fff; 
+    }
+
+    .btnAdicionar:focus[b-c5m2n89h4x] {
+        outline: none; 
+        background-color: #3A0648; 
+    }
+/* /Pages/ComponenteListaLancamentos.razor.rz.scp.css */
+tr[b-k29kh2ryw2]{
+    border-bottom:1px solid lightgrey;
+}
+
+thead[b-k29kh2ryw2] {
+    font-size: 1.5em;
+}
+
+td[b-k29kh2ryw2]{
+    width:50px;
+}
+
+table[b-k29kh2ryw2]{
+    text-align:center;
+    margin-top:15px;
+}
+
+/* /Pages/DadosPessoais.razor.rz.scp.css */
+.conteudo[b-njm57ksb2w]{
+    text-align:center;
+    margin-top:15px;
+}
+
+.campoFormulario[b-njm57ksb2w]{
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+label[b-njm57ksb2w] {
+    display: block;
+    margin-top: 15px;
+}
+
+.caixaTexto[b-njm57ksb2w]{
+    width:50%;
+    text-align:center;
+}
+
+.btnAlterarDados[b-njm57ksb2w] {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin-top: 15px;
+}
+
+    .btnAlterarDados:hover[b-njm57ksb2w] {
+        background-color: #0B2363;
+        color: #fff;
+    }
+
+    .btnAlterarDados:focus[b-njm57ksb2w] {
+        outline: none;
+        background-color: #3A0648;
+    }
+
+/* /Pages/Despesas.razor.rz.scp.css */
+.conteudo[b-ur0xfdt4u1] {
+    margin-top: 15px;
+}
+/* /Pages/Home.razor.rz.scp.css */
+.conteudo[b-4f7398rxl7]{
+    margin-top:15px;
+    text-align:center;
+}
+
+.tabela[b-4f7398rxl7]{
+    margin-top:15px;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.btnOpcaoReceita[b-4f7398rxl7] {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+
+    .btnOpcaoReceita:hover[b-4f7398rxl7] {
+    background-color: #0B2363;
+    }
+
+    .btnOpcaoReceita:focus[b-4f7398rxl7] {
+    outline: none;
+    background-color: #3A0648;
+    }
+
+.btnOpcaoDespesa[b-4f7398rxl7] {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+
+    .btnOpcaoDespesa:hover[b-4f7398rxl7] {
+    background-color: #3A0648;
+    }
+
+    .btnOpcaoDespesa:focus[b-4f7398rxl7] {
+        outline: none;
+        background-color: #0B2363;
+    }
+
+
+/* /Pages/Receitas.razor.rz.scp.css */
+.conteudo[b-knw4ozxh92]{
+    margin-top:15px;
+}

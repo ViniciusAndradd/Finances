@@ -1,0 +1,20 @@
+﻿.formulario{
+    margin-top:15px;
+}
+
+.btnAdicionar {
+    width: 100%;
+    margin-top: 10px;
+    background-color:black;
+    color:white;
+}
+
+    .btnAdicionar:hover {
+        background-color: #0B2363; 
+        color: #fff; 
+    }
+
+    .btnAdicionar:focus {
+        outline: none; 
+        background-color: #3A0648; 
+    }

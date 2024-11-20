@@ -1,0 +1,73 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+.menuLateral {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    color: #fff;
+    text-align: left;
+    
+}
+
+.menu{
+    padding:15px;
+}
+
+.logo {
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+    .logo h3 {
+        font-family: Optima;
+        font-size: 4em;
+    }
+
+
+ul {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.opcaoMenu {
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 1.2em;
+}
+
+    .opcaoMenu:hover {
+        text-decoration:none;
+        color: #171B5B;
+        background-color: rgba(254, 254, 254,0.7);
+        transition: 0.3s ease;
+    }
+
+.conteudoPrincipal {
+    margin-left: 250px;
+}
+
+.menuSuperior {
+    height: 75px;
+    display: flex;
+    background-image: linear-gradient(90deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
