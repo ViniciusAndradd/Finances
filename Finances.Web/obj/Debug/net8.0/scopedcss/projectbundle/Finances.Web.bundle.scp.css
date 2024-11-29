@@ -93,24 +93,6 @@ ul[b-ch4j1qcfmn] {
         outline: none; 
         background-color: #3A0648; 
     }
-/* /Pages/ComponenteListaLancamentos.razor.rz.scp.css */
-tr[b-k29kh2ryw2]{
-    border-bottom:1px solid lightgrey;
-}
-
-thead[b-k29kh2ryw2] {
-    font-size: 1.5em;
-}
-
-td[b-k29kh2ryw2]{
-    width:50px;
-}
-
-table[b-k29kh2ryw2]{
-    text-align:center;
-    margin-top:15px;
-}
-
 /* /Pages/DadosPessoais.razor.rz.scp.css */
 .conteudo[b-njm57ksb2w]{
     text-align:center;
@@ -156,6 +138,49 @@ label[b-njm57ksb2w] {
 /* /Pages/Despesas.razor.rz.scp.css */
 .conteudo[b-ur0xfdt4u1] {
     margin-top: 15px;
+}
+
+table[b-ur0xfdt4u1] {
+    padding: 20px;
+}
+
+tr[b-ur0xfdt4u1] {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+thead[b-ur0xfdt4u1] {
+    font-size: 1.5em;
+}
+
+td[b-ur0xfdt4u1] {
+    width: 20%;
+    text-align: center;
+}
+
+table[b-ur0xfdt4u1] {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btnEditar[b-ur0xfdt4u1] {
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+    .btnEditar:hover[b-ur0xfdt4u1] {
+        background-color: #0B2363;
+        color: #fff;
+    }
+
+    .btnEditar:focus[b-ur0xfdt4u1] {
+        outline: none;
+        background-color: #3A0648;
+    }
+
+.btnExcluir[b-ur0xfdt4u1] {
+    width: 50%;
 }
 /* /Pages/Home.razor.rz.scp.css */
 .conteudo[b-4f7398rxl7]{
@@ -206,4 +231,47 @@ label[b-njm57ksb2w] {
 /* /Pages/Receitas.razor.rz.scp.css */
 .conteudo[b-knw4ozxh92]{
     margin-top:15px;
+}
+
+table[b-knw4ozxh92] {
+    padding: 20px;
+}
+
+tr[b-knw4ozxh92] {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+thead[b-knw4ozxh92] {
+    font-size: 1.5em;
+}
+
+td[b-knw4ozxh92] {
+    width: 20%;
+    text-align:center;
+}
+
+table[b-knw4ozxh92] {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btnEditar[b-knw4ozxh92] {
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+    .btnEditar:hover[b-knw4ozxh92] {
+        background-color: #0B2363;
+        color: #fff;
+    }
+
+    .btnEditar:focus[b-knw4ozxh92] {
+        outline: none;
+        background-color: #3A0648;
+    }
+
+.btnExcluir[b-knw4ozxh92] {
+    width: 50%;
 }

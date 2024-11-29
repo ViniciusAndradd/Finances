@@ -3,30 +3,29 @@ using System.Net.Http.Json;
 
 namespace Finances.Web.Services
 {
-    public class ReceitaService : IReceitaService
+    public class DespesaService : IDespesaService
     {
         public HttpClient _httpClient;
-        public ILogger<ReceitaService> _logger;
+        public ILogger<DespesaService> _logger;
 
-        public ReceitaService(HttpClient httpClient, ILogger<ReceitaService> logger)
+        public DespesaService(HttpClient httpClient, ILogger<DespesaService> logger)
         {
             _httpClient = httpClient;
             _logger = logger;
         }
-
-        public async Task<IEnumerable<ReceitasDTO>> GetReceitas(int UsuarioId)
+        
+        public async Task<IEnumerable<DespesasDTO>> GetDespesas(int UsuarioId)
         {
             try
             {
-                var receitasDto = await _httpClient.GetFromJsonAsync<IEnumerable<ReceitasDTO>>($"api/receitas/{UsuarioId}");
-                return receitasDto;
+                var despesas = await _httpClient.GetFromJsonAsync<IEnumerable<DespesasDTO>>($"api/despesas/{UsuarioId}");
+                return despesas;
             }
             catch (Exception ex)
             {
                 _logger.LogError($"Erro ao acessar a api {ex.Message}");
                 throw;
             }
-
         }
     }
 }

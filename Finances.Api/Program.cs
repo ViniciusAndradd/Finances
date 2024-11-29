@@ -1,6 +1,7 @@
 using Finances.Api.Context;
 using Finances.Api.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,9 +18,17 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<IReceitaRepository, ReceitaRepository>();
 builder.Services.AddScoped<IDespesaRepository, DespesaRepository>();
 
+builder.Services.AddCors();
+
+
 var app = builder.Build();
 
-
+app.UseCors(policy =>
+    policy.WithOrigins("https://localhost:7255","https://localhost:7255")
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .WithHeaders(HeaderNames.ContentType)
+);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

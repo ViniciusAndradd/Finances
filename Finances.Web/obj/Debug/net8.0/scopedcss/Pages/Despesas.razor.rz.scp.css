@@ -1,3 +1,46 @@
 .conteudo[b-ur0xfdt4u1] {
     margin-top: 15px;
 }
+
+table[b-ur0xfdt4u1] {
+    padding: 20px;
+}
+
+tr[b-ur0xfdt4u1] {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+thead[b-ur0xfdt4u1] {
+    font-size: 1.5em;
+}
+
+td[b-ur0xfdt4u1] {
+    width: 20%;
+    text-align: center;
+}
+
+table[b-ur0xfdt4u1] {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btnEditar[b-ur0xfdt4u1] {
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+    .btnEditar:hover[b-ur0xfdt4u1] {
+        background-color: #0B2363;
+        color: #fff;
+    }
+
+    .btnEditar:focus[b-ur0xfdt4u1] {
+        outline: none;
+        background-color: #3A0648;
+    }
+
+.btnExcluir[b-ur0xfdt4u1] {
+    width: 50%;
+}

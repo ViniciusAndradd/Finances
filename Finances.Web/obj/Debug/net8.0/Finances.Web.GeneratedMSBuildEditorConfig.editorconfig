@@ -26,6 +26,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vinic/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/EditarLancamento.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyTGFuY2FtZW50by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vinic/Source/Repos/ViniciusAndradd/Finances/Finances.Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -37,10 +41,6 @@ build_metadata.AdditionalFiles.CssScope = b-ch4j1qcfmn
 [C:/Users/vinic/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/ComponenteFormularioLancamento.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50ZUZvcm11bGFyaW9MYW5jYW1lbnRvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-c5m2n89h4x
-
-[C:/Users/vinic/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/ComponenteListaLancamentos.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50ZUxpc3RhTGFuY2FtZW50b3MucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-k29kh2ryw2
 
 [C:/Users/vinic/Source/Repos/ViniciusAndradd/Finances/Finances.Web/Pages/DadosPessoais.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFkb3NQZXNzb2Fpcy5yYXpvcg==

@@ -1855,7 +1855,6 @@ C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8
 C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\ComponenteFormularioLancamento.razor.rz.scp.css
-C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\ComponenteListaLancamentos.razor.rz.scp.css
 C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\Despesas.razor.rz.scp.css
 C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\Home.razor.rz.scp.css
 C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\Receitas.razor.rz.scp.css
@@ -2071,3 +2070,12 @@ C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8
 C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\Finances.Web.pdb
 C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\ref\Finances.Web.dll
 C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\scopedcss\Pages\DadosPessoais.razor.rz.scp.css
+C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\bin\Debug\net8.0\wwwroot\_framework\Finances.Models.pdb
+C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\bin\Debug\net8.0\wwwroot\_framework\Finances.Models.wasm
+C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\bin\Debug\net8.0\wwwroot\_framework\Finances.Models.pdb.gz
+C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\bin\Debug\net8.0\wwwroot\_framework\Finances.Models.wasm.gz
+C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\bin\Debug\net8.0\Finances.Models.dll
+C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\bin\Debug\net8.0\Finances.Models.pdb
+C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\webcil\Finances.Models.wasm
+C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\compressed\ang8skix9g.gz
+C:\Users\vinic\Source\Repos\ViniciusAndradd\Finances\Finances.Web\obj\Debug\net8.0\compressed\6q93v76kya.gz

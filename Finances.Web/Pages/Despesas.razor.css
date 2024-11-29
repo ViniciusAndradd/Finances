@@ -1,3 +1,46 @@
 ﻿.conteudo {
     margin-top: 15px;
 }
+
+table {
+    padding: 20px;
+}
+
+tr {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+thead {
+    font-size: 1.5em;
+}
+
+td {
+    width: 20%;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btnEditar {
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+    .btnEditar:hover {
+        background-color: #0B2363;
+        color: #fff;
+    }
+
+    .btnEditar:focus {
+        outline: none;
+        background-color: #3A0648;
+    }
+
+.btnExcluir {
+    width: 50%;
+}

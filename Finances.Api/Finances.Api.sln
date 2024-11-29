@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finances.Api", "Finances.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finances.Models", "..\Finances.Models\Finances.Models.csproj", "{E5D7E64E-BC1A-4DBB-B7BE-2988A19B85D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finances.Web", "..\Finances.Web\Finances.Web.csproj", "{912D0EF3-18BE-4958-B7D6-D416F01E0091}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finances.Web", "..\Finances.Web\Finances.Web.csproj", "{912D0EF3-18BE-4958-B7D6-D416F01E0091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
